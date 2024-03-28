@@ -1,0 +1,17 @@
+.name {
+    background-color: silver;
+    color: rgb(4, 4, 131);
+    text-align: center;
+    margin: 0;
+    
+}
+
+body {
+    background-color: rgb(4, 4, 131);
+    color: silver;
+    
+}
+
+a {
+    color: silver;
+}
