@@ -59,3 +59,41 @@ section p {
     background-color: rgb(147, 151, 154);
     color: rgb(4, 4, 131);
 }
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media screen and ( orientation: landscape) and (min-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+.item {
+    background-color: rgb(102, 105, 108);
+}
+.container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 1fr 1fr;
+        grid-gap: 5px;
+        
+        
+        
+}
+
