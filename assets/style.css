@@ -1,17 +1,36 @@
 .name {
-    background-color: silver;
+    background-color: azure;
     color: rgb(4, 4, 131);
     text-align: center;
     margin: 0;
+    position: relative;
     
 }
 
 body {
-    background-color: rgb(4, 4, 131);
-    color: silver;
-    
+    background-color: silver;
+    color: black;
+    flex-wrap: wrap;
 }
 
 a {
-    color: silver;
+    color: rgb(4, 4, 131);
+}
+
+a:hover {
+    color: rgb(120, 4, 152);
+}
+
+h2 {
+    text-align: start;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+p {
+    text-align: left justify;
+}
+
+hr {
+    color: rgb(4, 4, 131);
 }

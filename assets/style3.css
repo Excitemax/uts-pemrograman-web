@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: gold;
+    font-weight: bolder;
+}
+
+body {
+    background-color: rgb(99, 6, 99);
+    color: gold;
+    text-align: center;
+
+}
+
+a {
+    color: gold;
+}
+
+a:hover {
+    color: azure;
+    font-weight: bolder;
+}
+
+section {
+    border-radius: 1px #ddd;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0 0 5px #aaa;
+}
+
+nav {
+    text-align: start;
+}

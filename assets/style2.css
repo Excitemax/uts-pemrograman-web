@@ -2,3 +2,25 @@ body {
     background-color: black;
     color: silver;
 }
+
+a {
+    color: silver;
+       
+}
+
+a:hover {
+    color: gold;
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+section {
+    border-radius: 1px #ddd;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0 0 5px #aaa;
+}
