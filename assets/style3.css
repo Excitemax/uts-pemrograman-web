@@ -30,3 +30,7 @@ section {
 nav {
     text-align: start;
 }
+
+p {
+    line-height: 1.5;
+}
