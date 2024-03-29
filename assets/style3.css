@@ -8,6 +8,10 @@ body {
     background-color: rgb(99, 6, 99);
     color: gold;
     text-align: center;
+    font-family: "Nunito", helvetica, arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 
 }
 
