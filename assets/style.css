@@ -52,7 +52,7 @@ hr {
 }
 
 section {
-    float: left; width: 60%;
+     width: 100%;
 }
 
 section p {
@@ -90,10 +90,39 @@ section p {
 .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 1fr 1fr;
+        grid-template-rows:  1fr 1fr;
         grid-gap: 5px;
         
-        
-        
+}
+#variety {
+    margin-right: 0;
+}
+.container2 {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  1fr;
+    grid-gap: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+.explain {
+    grid-template-columns: auto auto;
+    display: grid;
+    margin:0;
+}
+#camera {
+    align-items: center;
+    text-align: center;
+}
+#camera .container{
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    margin-bottom: 0;
 }
 
