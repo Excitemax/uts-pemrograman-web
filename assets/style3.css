@@ -5,7 +5,7 @@ h1 {
 }
 
 body {
-    background-color: rgb(25, 43, 94);
+    background-color: rgb(2, 2, 3);
     color: gold;
     text-align: center;
     font-family: "Nunito", helvetica, arial, sans-serif;
@@ -38,4 +38,28 @@ nav {
 
 p {
     line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media screen and ( orientation: landscape) and (min-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
 }
